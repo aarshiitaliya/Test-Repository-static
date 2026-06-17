@@ -1,5 +1,1 @@
-{
-  "git": {
-    "ignoreBuildCommand": "git diff --name-only HEAD^ HEAD | grep -qvE \u0027^(netlify\\.toml|railway\\.json|wrangler\\.toml|render\\.yaml|Dockerfile|docker-compose\\.yml|\\.github/workflows/(aws|gcp|azure|deploy)\\.yml)$\u0027 \u0026\u0026 exit 1 || exit 0"
-  }
-}
+{}
